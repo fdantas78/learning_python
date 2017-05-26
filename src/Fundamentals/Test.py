@@ -1,5 +1,6 @@
 def func1():
     text = "Example of file access!"
+    print(text)
     file = open('test.txt', 'r')
     # file.write(text + '\n')
     f_read = file.read()

@@ -1,11 +1,11 @@
 class calc:
-    def sum(a,b):
+    def sum(self,a,b):
         return a+b
-    def sub(a,b):
+    def sub(self,a,b):
         return a-b
-    def mult(a,b):
+    def mult(self,a,b):
         return a*b
-    def div(a,b):
+    def div(self,a,b):
         return a/b
 
 
@@ -26,8 +26,8 @@ print(std.mode(exList))
 print(std.stdev(exList))
 print(std.variance(exList))
 
-import Test as T
+#import Test as T
 
-T.func1()
+#T.func1()
     
     
