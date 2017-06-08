@@ -29,7 +29,7 @@ def get_file_from_server():
                         password='')
     local_path = "test_file.txt"
     remote_path = "/home/test_file.txt"
-    s.get(local_path, remote_path)
+    s.get(remote_path, local_path)
     s.close()
     
 get_file_from_server()
