@@ -3,16 +3,15 @@ Created on Jun 6, 2017
 
 @author: makaidaimyo
 '''
-
 '''
-pip install pycrypto
-pip install paramiko
-pip install pysftp
+pip3 install pycrypto
+pip3 install paramiko
+pip3 install pysftp
 '''
 import pysftp as sftp
 
 def push_file_to_server():
-    s = sftp.Connection(host='138.197.151.242',
+    s = sftp.Connection(host='138.197.128.225',
                         username='root',
                         password='')
     local_path = "test_file.txt"
@@ -24,7 +23,7 @@ def push_file_to_server():
 #push_file_to_server()
 
 def get_file_from_server():
-    s = sftp.Connection(host='138.197.151.242',
+    s = sftp.Connection(host='138.197.128.225',
                         username='root',
                         password='')
     local_path = "test_file.txt"
